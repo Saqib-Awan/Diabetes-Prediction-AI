@@ -1,0 +1,6 @@
+Field: Outcome
+
+0 = No Diabetes
+1 = Has Diabetes
+
+All other columns contain numerical medical test results, such as glucose level, BMI, insulin level, etc.
