@@ -7,7 +7,7 @@ This repository contains the complete codebase for our PeerJ Computer Science AI
 
 ##  Files Included
 
-- `PeerJ_Diabetes_Full_Code.ipynb` – Jupyter notebook with all implementation steps.
+- `PeerJ_Diabetes_Full_Code.ipynb` – Jupyter notebook with full code and all implementation steps.
 - `diabetes.csv` – Original dataset (ensure it's in the same directory).
 - `README.md` – This instruction file.
 
