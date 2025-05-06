@@ -41,27 +41,27 @@ Below are all the functions used in the code
 
 ## Requirements
 
-- `Python 3.10+
-- `numpy
-- `pandas
-- `scikit-learn
-- `matplotlib
-- `seaborn
-- `tensorflow
-- `keras
-- `joblib
-- `imbalanced-learn (for SMOTE)
+- Python 3.10+
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- tensorflow
+- keras
+- joblib
+- imbalanced-learn (for SMOTE)
 
 ## Methodology Summary
-- `The study combines ensemble and deep learning methods to improve diabetes prediction performance:
-- `**Data Augmentation**: Synthetic sample generation to increase dataset size to 10,000.
-- `**Feature Engineering**: Polynomial transformations to capture non-linear relations.
-- `**Model Training**: GridSearchCV/RandomizedSearchCV used for hyperparameter tuning.
+- The study combines ensemble and deep learning methods to improve diabetes prediction performance:
+- **Data Augmentation**: Synthetic sample generation to increase dataset size to 10,000.
+- **Feature Engineering**: Polynomial transformations to capture non-linear relations.
+- **Model Training**: GridSearchCV/RandomizedSearchCV used for hyperparameter tuning.
 
 **Model Types**:
-- `**Ensemble**: Bagging, Boosting, Random Forest, Stacking
-- `**Deep Learning**: DNN with ReLU layers; LSTM for sequential data handling
-- `**Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix
+- **Ensemble**: Bagging, Boosting, Random Forest, Stacking
+- **Deep Learning**: DNN with ReLU layers; LSTM for sequential data handling
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix
 
 ##  Files Included
 
