@@ -35,12 +35,39 @@ Below are all the functions used in the code
 
 1. Clone the repository or download the ZIP:
    ```bash
-   git clone https://github.com/yourusername/diabetes-prediction-ai
-   cd diabetes-prediction-ai
+   git clone https://github.com/Saqib-Awan/Diabetes-Prediction-Ai
+   cd Diabetes-Prediction-Ai
+
+
+## Requirements
+
+- `Python 3.10+
+- `numpy
+- `pandas
+- `scikit-learn
+- `matplotlib
+- `seaborn
+- `tensorflow
+- `keras
+- `joblib
+- `imbalanced-learn (for SMOTE)
+
+## Methodology Summary
+- `The study combines ensemble and deep learning methods to improve diabetes prediction performance:
+- `**Data Augmentation**: Synthetic sample generation to increase dataset size to 10,000.
+- `**Feature Engineering**: Polynomial transformations to capture non-linear relations.
+- `**Model Training**: GridSearchCV/RandomizedSearchCV used for hyperparameter tuning.
+
+**Model Types**:
+- `**Ensemble**: Bagging, Boosting, Random Forest, Stacking
+- `**Deep Learning**: DNN with ReLU layers; LSTM for sequential data handling
+- `**Evaluation Metrics**: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix
 
 ##  Files Included
 
 - `PeerJ_Diabetes_Full_Code.ipynb` – Jupyter notebook with full code and all implementation steps.
-- `diabetes.csv` – Original dataset (ensure it's in the same directory).
+- `diabetes dataset.csv` – Original dataset (ensure it's in the same directory).
 - `README.md` – This instruction file.
-
+- `codebook.txt` – Variable descriptions for PIDD dataset.
+- `preprocessed_diabetes_fixed.csv` – Preprocessed dataset file 
+- `requirements.txt` – Dependencies for running project code
