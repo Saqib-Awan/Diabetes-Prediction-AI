@@ -21,14 +21,15 @@ This project presents a highly accurate and generalizable approach to diabetes p
 - Final data integrity checks and shuffling
 
 ## Code Information
+Below are all the functions used in the code 
 
-- `data_preprocessing.py`: Loads and cleans the dataset, handles missing values, performs augmentation, scaling, and feature engineering.
-- `train_ensemble_models.py`: Trains and evaluates Bagging, Boosting, Random Forest, and Stacking models using cross-validation.
-- `train_deep_models.py`: Implements and trains DNN and LSTM architectures using TensorFlow/Keras.
-- `evaluate_models.py`: Generates classification reports, confusion matrices, ROC-AUC plots, and accuracy comparisons.
-- `hyperparameter_tuning.py`: Performs GridSearchCV and RandomizedSearchCV for model optimization.
-- `model_saving.py`: Saves trained models using `joblib` for deployment.
-- `utils.py`: Contains reusable functions for metrics calculation and visualizations.
+- `data_preprocessing`: Loads and cleans the dataset, handles missing values, performs augmentation, scaling, and feature engineering.
+- `train_ensemble_models`: Trains and evaluates Bagging, Boosting, Random Forest, and Stacking models using cross-validation.
+- `train_deep_models`: Implements and trains DNN and LSTM architectures using TensorFlow/Keras.
+- `evaluate_models`: Generates classification reports, confusion matrices, ROC-AUC plots, and accuracy comparisons.
+- `hyperparameter_tuning`: Performs GridSearchCV and RandomizedSearchCV for model optimization.
+- `model_saving`: Saves trained models using `joblib` for deployment.
+- `utils`: Contains reusable functions for metrics calculation and visualizations.
 
 ## Usage Instructions
 
